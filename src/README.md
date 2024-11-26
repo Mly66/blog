@@ -4,45 +4,39 @@ layout: BlogHome
 icon: home
 title: 博客主页
 heroImage: https://theme-hope-assets.vuejs.press/logo.svg
-heroText: 你博客的名称
+heroText: 瘾世log
 heroFullScreen: true
-tagline: 你可以在这里放置你的口号与标语
+tagline: Only for Fun
+
 projects:
   - icon: project
-    name: 项目名称
-    desc: 项目详细描述
-    link: https://你的项目链接
+    name: big-event
+    desc: Spring Boot, Spring MVC, MyBatis
+    link: https://github.com/Mly66/big-event
 
   - icon: link
-    name: 链接名称
-    desc: 链接详细描述
-    link: https://链接地址
+    name: chatGPT
+    desc: chatGPT免登陆镜像
+    link: https://chat18.aichatos68.com/
 
   - icon: book
-    name: 书籍名称
-    desc: 书籍详细描述
-    link: https://你的书籍链接
+    name: 当下的力量
+    desc: 埃克哈特·托利
+    link: https://zh.z-lib.gs/book/11776475/2f42ef/%E5%BD%93%E4%B8%8B%E7%9A%84%E5%8A%9B%E9%87%8F%E7%99%BD%E9%87%91%E7%89%88.html
 
   - icon: article
-    name: 文章名称
-    desc: 文章详细描述
-    link: https://你的文章链接
+    name: FunFun
+    desc: 你老婆还是你好大儿老婆？
+    link: https://www.bilibili.com/video/BV1SavvehE1X/?share_source=copy_web&vd_source=54504c63af2a6baf6252730448dfacb4
 
   - icon: friend
-    name: 伙伴名称
-    desc: 伙伴详细介绍
-    link: https://你的伙伴链接
+    name: tencent
+    desc: tencent
+    link: tencent://message/?uin=3310530494&Site=&Menu=yes
 
   - icon: https://theme-hope-assets.vuejs.press/logo.svg
-    name: 自定义项目
-    desc: 自定义详细介绍
-    link: https://你的自定义链接
+    name: Mly66
+    desc: Mly66
+    link: https://github.com/Mly66/Mly66
 
-footer: 自定义你的页脚文字
----
-
-这是一个博客主页的案例。
-
-要使用此布局，你应该在页面前端设置 `layout: BlogHome` 和 `home: true`。
-
-相关配置文档请见 [博客主页](https://theme-hope.vuejs.press/zh/guide/blog/home.html)。
+footer: mly798798@gmail.com

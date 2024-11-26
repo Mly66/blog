@@ -4,7 +4,7 @@ export default sidebar({
   "/": [
     "",
     {
-      text: "如何使用",
+      text: "技术栈",
       icon: "laptop-code",
       prefix: "demo/",
       link: "demo/",
@@ -18,9 +18,9 @@ export default sidebar({
     },
     "intro",
     {
-      text: "幻灯片",
+      text: "Github",
       icon: "person-chalkboard",
-      link: "https://ecosystem.vuejs.press/zh/plugins/markdown/revealjs/demo.html",
+      link: "https://github.com/Mly66",
     },
   ],
 });

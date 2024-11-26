@@ -1,6 +1,6 @@
 ---
 # 这是文章的标题
-title: 页面配置
+title: MyBatis
 # 你可以自定义封面图片
 cover: /assets/images/cover1.jpg
 # 这是页面的图标
@@ -8,9 +8,9 @@ icon: file
 # 这是侧边栏的顺序
 order: 3
 # 设置作者
-author: Ms.Hope
+author: Mr.Mly
 # 设置写作时间
-date: 2020-01-01
+date: 2024-11-01
 # 一个页面可以有多个分类
 category:
   - 使用指南
@@ -23,103 +23,22 @@ sticky: true
 # 此页面会出现在星标文章中
 star: true
 # 你可以自定义页脚
-footer: 这是测试显示的页脚
+footer: Mly
 # 你可以自定义版权信息
-copyright: 无版权
+copyright: Mly
 ---
+# MyBatis 核心特点介绍
 
-`more` 注释之前的内容被视为文章摘要。
+MyBatis 是一款优秀的持久层框架，用于简化数据库操作。以下是 MyBatis 的四个核心特点：
 
-<!-- more -->
+## 灵活性
+- MyBatis 允许开发者编写自定义 SQL 语句，以满足各种复杂的查询需求。同时，它也支持动态 SQL，可以根据不同的条件生成不同的 SQL 语句。
 
-## 页面标题
+## 易于调试
+- MyBatis 可以将执行的 SQL 语句输出到日志中，方便开发人员进行调试和性能优化。
 
-The first H1 title in Markdown will be regarded as page title.
+## 缓存支持
+- MyBatis 支持一级缓存和二级缓存，可以提高数据库访问的性能。
 
-Markdown 中的第一个 H1 标题会被视为页面标题。
-
-你可以在 Markdown 的 Frontmatter 中设置页面标题。
-
-```md
----
-title: 页面标题
----
-```
-
-## 页面信息
-
-你可以在 Markdown 的 Frontmatter 中设置页面信息。
-
-- 作者设置为 Ms.Hope。
-- 写作日期为 2020 年 1 月 1 日
-- 分类为 “使用指南”
-- 标签为 “页面配置” 和 “使用指南”
-
-## 页面内容
-
-你可以自由在这里书写你的 Markdown。
-
-::: tip 图片引入
-
-- 你可以将图片和 Markdown 文件放置在一起使用相对路径进行引用。
-- 对于 `.vuepress/public` 文件夹的图片，请使用绝对链接 `/` 进行引用。
-
-:::
-
-## 组件
-
-每个 Markdown 页面都会被转换为一个 Vue 组件，这意味着你可以在 Markdown 中使用 Vue 语法：
-
-{{ 1 + 1 }}
-
-<!-- markdownlint-disable MD033 -->
-
-<ul>
-  <li v-for="i in 3">{{ i }}</li>
-</ul>
-
-<!-- markdownlint-enable MD033 -->
-
-你也可以创建并引入你自己的组件。
-
-<MyComponent />
-
-<script setup>
-import { defineComponent, h, ref } from 'vue';
-
-const MyComponent = defineComponent({
-  setup() {
-    const input = ref('Hello world!');
-    const onInput = (e) => {
-      input.value = e.target.value;
-    };
-
-    return () => [
-      h('p', [
-        h('span','输入: '),
-        h('input', {
-          value: input.value,
-          onInput,
-        }),
-      ]),
-      h('p', [h('span','输出: '), input.value]),
-    ];
-  },
-});
-</script>
-
----
-
-主题包含一些有用的组件。这里是一些例子:
-
-- 文字结尾应该有深蓝色的 徽章文字 徽章。 <Badge text="徽章文字" color="#242378" />
-
-- 一个卡片:
-
-  ```component VPCard
-  title: Mr.Hope
-  desc: Where there is light, there is hope
-  logo: https://mister-hope.com/logo.svg
-  link: https://mister-hope.com
-  background: rgba(253, 230, 138, 0.15)
-  ```
+## 支持多种数据库
+- MyBatis 支持多种主流数据库，包括 MySQL、Oracle、SQL Server 等，方便开发人员在不同的项目中使用。

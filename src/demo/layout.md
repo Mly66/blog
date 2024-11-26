@@ -1,31 +1,25 @@
 ---
-title: 布局
+title: Spring Boot
 icon: object-group
 order: 2
 category:
   - 指南
 tag:
-  - 布局
+  - Spring Boot
 ---
 
-布局包括:
+# Spring Boot 技术栈
 
-- [导航栏](https://theme-hope.vuejs.press/zh/guide/layout/navbar.html)
-- [侧边栏](https://theme-hope.vuejs.press/zh/guide/layout/sidebar.html)
-- [页脚](https://theme-hope.vuejs.press/zh/guide/layout/footer.html)
+Spring Boot 是一个开源的 Java 框架，用于简化新 Spring 应用的初始搭建以及开发过程。以下是 Spring Boot 技术栈中的核心组成部分：
 
-同时每个页面包含:
+## Spring Framework
+- **核心框架**：Spring Boot 建立在 Spring 框架之上，后者提供了依赖注入、事件处理、数据绑定等核心功能。
 
-- [路径导航](https://theme-hope.vuejs.press/zh/guide/layout/breadcrumb.html)
-- [标题和页面信息](https://theme-hope.vuejs.press/zh/guide/feature/page-info.html)
-- [TOC (文章标题列表)](https://theme-hope.vuejs.press/zh/guide/layout/page.html#标题列表)
-- [贡献者、更新时间等页面元信息](https://theme-hope.vuejs.press/guide/feature/meta.html)
-- [评论](https://theme-hope.vuejs.press/zh/guide/feature/comment.html)
+## Spring Boot Starter
+- **自动配置**：Spring Boot Starter 是一种快速启动项目的方式，它包括了一系列的依赖和配置（如 Web、JPA、Security 等）。
 
-主题也带有以下元素:
+## Spring Boot Actuator
+- **监控和管理**：提供应用的监控和管理功能，如健康检查、度量信息、审计等。
 
-- [夜间模式按钮](https://theme-hope.vuejs.press/zh/guide/interface/darkmode.html)
-- [返回顶部按钮](https://theme-hope.vuejs.press/guide/interface/others.html#返回顶部按钮)
-- [打印按钮](https://theme-hope.vuejs.press/guide/interface/others.html#打印按钮)
-
-你可以在主题选项和页面的 frontmatter 中自定义它们。
+## Spring Data
+- **数据访问**：简化数据库操作，支持多种类型的数据库，如关系型数据库、NoSQL 数据库等。
