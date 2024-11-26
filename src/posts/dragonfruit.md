@@ -9,7 +9,7 @@ tag:
   - 大
 ---
 
-#  Maven 源修改为国内阿里云镜像
+#  使用阿里云 Maven 镜像加速
 
 ## 正确的设置方式
 在maven库的官网上http://maven.apache.org/settings.html，是建议我们这样设置的。但是我发现，有时候，阿里云maven源有的包下载不了
