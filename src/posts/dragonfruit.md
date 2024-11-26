@@ -5,8 +5,7 @@ category:
   - 环境配置
   - 教程推荐
 tag:
-  - 红
-  - 大
+  - Maven
 ---
 
 #  使用阿里云 Maven 镜像加速
