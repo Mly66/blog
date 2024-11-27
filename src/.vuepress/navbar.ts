@@ -16,7 +16,7 @@ export default navbar([
           { text: "PowerShell ", icon: "pen-to-square", link: "1" },
           { text: "gcc", icon: "pen-to-square", link: "2" },
           { text: "Chrome", icon: "pen-to-square", link: "3" },
-          { text: "代码4", icon: "pen-to-square", link: "4" },        ],
+          { text: "jQuery", icon: "pen-to-square", link: "4" },        ],
       },
       {
         text: "工具",
