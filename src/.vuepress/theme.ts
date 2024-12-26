@@ -31,7 +31,7 @@ export default hopeTheme({
 
   // 博客相关
   blog: {
-    description: "一个后端开发者",
+    description: "Hello World!",
     intro: "/intro.html",
     medias: {
       Baidu: "https://www.baidu.com",
