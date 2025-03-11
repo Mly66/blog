@@ -45,7 +45,7 @@ tag:
 > 联合索引 (`a, b, c`) 的使用顺序必须从左往右，否则索引可能失效！
 
 ```
-sql复制编辑SELECT * FROM table WHERE a = 1 AND b = 2; -- 走索引 ✅
+SELECT * FROM table WHERE a = 1 AND b = 2; -- 走索引 ✅
 SELECT * FROM table WHERE b = 2; -- 索引失效 ❌
 SELECT * FROM table WHERE a = 1 AND b > 2 AND c = 3; -- c 不走索引 ❌
 ```
@@ -71,10 +71,6 @@ SELECT * FROM table WHERE a = 1 AND b > 2 AND c = 3; -- c 不走索引 ❌
 ✅ **查看 SQL 执行计划**
 
 ```
-sql
-
-
-复制编辑
 EXPLAIN SELECT * FROM table WHERE id = 1;
 ```
 
@@ -134,10 +130,6 @@ EXPLAIN SELECT * FROM table WHERE id = 1;
 - **设置 `innodb_lock_wait_timeout` 超时时间**
 
 ```
-sql
-
-
-复制编辑
 SHOW ENGINE INNODB STATUS; -- 查看死锁情况
 ```
 
