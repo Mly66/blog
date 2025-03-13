@@ -3,7 +3,7 @@ home: true
 layout: BlogHome
 icon: home
 title: 博客主页
-heroImage: https://theme-hope-assets.vuejs.press/logo.svg
+heroImage: /logo.svg
 heroText: 瘾世log
 heroFullScreen: true
 tagline: Only for Fun
@@ -34,7 +34,7 @@ projects:
     desc: tencent
     link: tencent://message/?uin=3310530494&Site=&Menu=yes
 
-  - icon: https://theme-hope-assets.vuejs.press/logo.svg
+  - icon: /logo.svg
     name: Mly66
     desc: Mly66
     link: https://github.com/Mly66/Mly66
