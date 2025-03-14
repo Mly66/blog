@@ -4,6 +4,8 @@ layout: BlogHome
 icon: home
 title: 博客主页
 heroImage: /logo.svg
+bgImage: /assets/images/bg.jpg
+bgImageDark: /assets/images/bg.jpg
 heroText: 瘾世log
 heroFullScreen: true
 tagline: Only for Fun
