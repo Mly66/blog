@@ -2,8 +2,9 @@
 icon: pen-to-square
 date: 2024-03-11
 category:
-  - 面试
+  - 后端开发
 tag:
+  - 面试
   - Redis
 ---
 # Redis

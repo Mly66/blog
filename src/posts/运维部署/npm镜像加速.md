@@ -2,9 +2,10 @@
 icon: pen-to-square
 date: 2024-11-09
 category:
-  - 教程推荐
+  - 运维部署
 tag:
   - npm
+  - 镜像源
 ---
 
 # 使用阿里云 npm 镜像加速

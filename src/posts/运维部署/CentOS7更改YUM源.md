@@ -2,9 +2,11 @@
 icon: pen-to-square
 date: 2024-12-10
 category:
-  - centos7
+  - 运维部署
 tag:
-  - npm
+  - CentOS
+  - YUM
+  - 镜像源
 ---
 
 # CentOS 7系统中更改YUM源为阿里云的镜像源

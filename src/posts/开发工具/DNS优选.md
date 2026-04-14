@@ -2,10 +2,10 @@
 icon: pen-to-square
 date: 2024-11-07
 category:
-  - tool
+  - 开发工具
 tag:
   - DNS
-
+  - 网络优化
 ---
 
 # DNS优选

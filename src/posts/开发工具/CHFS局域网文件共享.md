@@ -2,9 +2,10 @@
 icon: pen-to-square
 date: 2024-11-05
 category:
-  - tool
+  - 开发工具
 tag:
-  - 局域网
+  - CHFS
+  - 文件共享
 ---
 # **[Windows]【局域网文件共享传输利器】**
 CuteHttpFileServer（简称CHFS）是一款局域网文件共享工具，适用于Windows、Linux和macOS平台，其中Windows版本提供了GUI窗口界面，方便用户操作。该工具通过简易的HTTP服务方式，支持在局域网中快速共享文件，操作简单方便。以下是CHFS 3.1版本的更新日志和下载信息：

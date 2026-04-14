@@ -2,10 +2,11 @@
 icon: pen-to-square
 date: 2024-11-03
 category:
-  - code
+  - 开发工具
 tag:
   - Python
-  - Chrome
+  - Selenium
+  - ChromeDriver
 ---
 
 # Python 环境配置与 Selenium 安装指南

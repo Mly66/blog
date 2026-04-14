@@ -2,9 +2,10 @@
 icon: pen-to-square
 date: 2024-12-23
 category:
-  - header
+  - 后端开发
 tag:
-  - postman
+  - HTTP
+  - 响应头
 ---
 
 # Content-Disposition

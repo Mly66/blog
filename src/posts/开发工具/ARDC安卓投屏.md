@@ -2,9 +2,10 @@
 icon: pen-to-square
 date: 2024-11-08
 category:
-  - tool
+  - 开发工具
 tag:
-  - 安卓
+  - ARDC
+  - 安卓投屏
 ---
 
 # 安卓投屏助手(ARDC)

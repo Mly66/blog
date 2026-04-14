@@ -84,6 +84,9 @@ export default hopeTheme({
     editLink: "在 GitHub 上编辑此页",
   },
 
+  // 禁用编辑链接
+  editLink: false,
+
   // 如果想要实时查看任何改变，启用它。注: 这对更新性能有很大负面影响
   // hotReload: true,
 

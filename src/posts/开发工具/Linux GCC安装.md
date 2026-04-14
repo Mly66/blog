@@ -2,11 +2,10 @@
 icon: pen-to-square
 date: 2024-11-02
 category:
-  - code
+  - 开发工具
 tag:
   - Linux
-  - gcc
-
+  - GCC
 star: true
 ---
 

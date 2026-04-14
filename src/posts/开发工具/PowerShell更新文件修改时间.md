@@ -2,10 +2,10 @@
 icon: pen-to-square
 date: 2024-11-01
 category:
-  - code
+  - 开发工具
 tag:
-  - time
-  - 快捷
+  - PowerShell
+  - Windows
 ---
 # PowerShell 命令：更新文件的修改时间
 

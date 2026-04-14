@@ -2,9 +2,10 @@
 icon: pen-to-square
 date: 2025-03-26
 category:
-  - learn
+  - 后端开发
 tag:
-  - python
+  - Python
+  - 爬虫
 ---
 
 # 爬虫code

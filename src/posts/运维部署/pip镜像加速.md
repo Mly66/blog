@@ -3,9 +3,10 @@ cover: /assets/images/cover2.jpg
 icon: pen-to-square
 date: 2024-11-12
 category:
-  - 教程推荐
+  - 运维部署
 tag:
   - pip
+  - 镜像源
 star: true
 sticky: true
 ---

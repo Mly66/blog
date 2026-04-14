@@ -2,9 +2,10 @@
 icon: pen-to-square
 date: 2024-11-04
 category:
-  - code
+  - 前端开发
 tag:
   - jQuery
+  - JavaScript
 ---
 
 #  jQuery下载和安装教程

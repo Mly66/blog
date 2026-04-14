@@ -2,10 +2,10 @@
 icon: pen-to-square
 date: 2024-11-10
 category:
-  - 环境配置
-  - 教程推荐
+  - 运维部署
 tag:
   - Maven
+  - 镜像源
 ---
 
 #  使用阿里云 Maven 镜像加速

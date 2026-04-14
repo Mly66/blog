@@ -2,10 +2,10 @@
 icon: pen-to-square
 date: 2024-11-11
 category:
-  - Vue
-  - 教程推荐
+  - 前端开发
 tag:
-  - 个人博客
+  - VuePress
+  - 博客搭建
 ---
 
 

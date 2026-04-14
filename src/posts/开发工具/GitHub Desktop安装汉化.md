@@ -2,9 +2,10 @@
 icon: pen-to-square
 date: 2024-11-06
 category:
-  - tool
+  - 开发工具
 tag:
-  - GitHub
+  - GitHub Desktop
+  - Git
 ---
 
 # GitHub桌面版（GitHub Desktop）安装及汉化教程
