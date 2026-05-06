@@ -9,46 +9,16 @@ export default navbar([
     prefix: "/posts/",
     children: [
       {
-        text: "代码",
+        text: "运维部署",
         icon: "pen-to-square",
-        prefix: "code/",
+        prefix: "运维部署/",
         children: [
-          { text: "PowerShell ", icon: "pen-to-square", link: "1" },
-          { text: "gcc", icon: "pen-to-square", link: "2" },
-          { text: "Chrome", icon: "pen-to-square", link: "3" },
-          { text: "jQuery", icon: "pen-to-square", link: "4" },        ],
-      },
-      {
-        text: "工具",
-        icon: "pen-to-square",
-        prefix: "tool/",
-        children: [
-          {
-            text: "CHFS",
-            icon: "pen-to-square",
-            link: "1",
-          },
-          {
-            text: "GitHub Desktop",
-            icon: "pen-to-square",
-            link: "2",
-          },
-          {
-            text: "DNS优选",
-            icon: "pen-to-square",
-            link: "3",
-          },
-          {
-            text: "ARDC",
-            icon: "pen-to-square",
-            link: "4",
-          },
+          { text: "npm镜像加速", icon: "pen-to-square", link: "npm镜像加速" },
+          { text: "Maven镜像加速", icon: "pen-to-square", link: "Maven镜像加速" },
+          { text: "pip镜像加速", icon: "pen-to-square", link: "pip镜像加速" },
+          { text: "CentOS7更改YUM源", icon: "pen-to-square", link: "CentOS7更改YUM源" },
         ],
       },
-      { text: "npm", icon: "pen-to-square", link: "npm" },
-      { text: "Maven", icon: "pen-to-square", link: "Maven" },
-      { text: "pip", icon: "pen-to-square", link: "pip" },
-      { text: "blog", icon: "pen-to-square", link: "VuePress" },
     ],
   },
   {
